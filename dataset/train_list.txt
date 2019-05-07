@@ -1,0 +1,3 @@
+dataset/images/해남haenam.png 해남 haenam
+dataset/images/남리교차로.png 남리교차로
+

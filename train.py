@@ -18,8 +18,8 @@ import models.crnn_lang as crnn
 print(crnn.__name__)
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--trainlist',  default='')
-parser.add_argument('--vallist',  default='')
+parser.add_argument('--trainlist',  default='dataset/train_list.txt')
+parser.add_argument('--vallist',  default='dataset/train_list.txt')
 parser.add_argument('--workers', type=int, help='number of data loading workers', default=2)
 parser.add_argument('--batchSize', type=int, default=8, help='input batch size')
 parser.add_argument('--imgH', type=int, default=32, help='the height of the input image to network')
